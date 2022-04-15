@@ -5,8 +5,8 @@ Confession Android App Built In Java and Backend as Google Firebase
 
 ## Results
 
-<img width="80%" src="./output2.png"/>
+<img width="40%" src="./output2.png"/>
 
-<img width="80%" src="./output1.png"/>
+<img width="40%" src="./output1.png"/>
 
-<img width="80%" src="./output3.png"/>
+<img width="40%" src="./output3.png"/>
