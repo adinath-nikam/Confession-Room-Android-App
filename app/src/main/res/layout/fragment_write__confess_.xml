@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Write_Confess_Fragment"
+    android:padding="10dp"
+    android:background="@color/Black">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:contentPadding="10dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5dp"
+            app:title=" "/>
+
+        <ImageButton
+            android:id="@+id/writeConfession_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/conf_send_btn"
+            android:background="@color/White"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentEnd="true"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/confessor_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/profile_pic"/>
+
+        <TextView
+            android:id="@+id/confessor_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/confessor_pic"
+            android:textStyle="bold"
+            android:layout_below="@+id/toolbar"
+            android:textColor="@color/Black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/confessor_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/confessor_username"
+            android:layout_toRightOf="@id/confessor_pic"/>
+
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confessionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confessor_pic"
+        android:layout_marginTop="50dp"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confessionETTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confess Title"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confessionBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confessionTitle"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confessionETBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confess Body.."
+            android:inputType="text"
+            android:background="@android:color/transparent"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/switchMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/confessionBody"
+        android:textSize="12sp"
+        android:text="*By enabling your identity will be hidden on this application"/>
+
+
+    <Switch
+        android:id="@+id/AnonimitySwitch"
+        android:layout_below="@+id/switchMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/customswitchselector"
+        android:track="@drawable/custom_track"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:showText="true"
+        android:checked="false"
+        app:switchTextAppearance="@color/White"
+        android:textOn="ON"
+        android:textOff="OFF"/>
+
+
+
+    </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

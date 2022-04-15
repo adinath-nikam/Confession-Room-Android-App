@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Confession Room</string>
+    <string name="login_description">With thousands of communities,
+we gives you the ability to confess the secrets
+that makes you cringe every time you think anout it.</string>
+
+    <string name="login_t_and_c">By Log In, you agree with our Terms of Service
+ and Privacy Policy.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/White">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Confess and Connect \nwith people."
+            android:textColor="@color/Black"
+            android:layout_marginTop="15dp"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/login_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/login_title"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/login_asset" />
+
+        <TextView
+            android:id="@+id/login_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_description"
+            android:layout_below="@id/login_image"
+            android:layout_marginTop="55dp"
+            android:textAlignment="center"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_signin_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_description"
+            android:layout_marginTop="50dp"
+            android:elevation="20dp"/>
+
+        <TextView
+            android:id="@+id/login_t_and_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_t_and_c"
+            android:layout_below="@id/google_signin_btn"
+            android:textSize="12sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="45dp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

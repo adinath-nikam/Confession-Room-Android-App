@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "352136366768",
+    "firebase_url": "https://confession-room-a8526.firebaseio.com",
+    "project_id": "confession-room-a8526",
+    "storage_bucket": "confession-room-a8526.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352136366768:android:6d94bf82815d0a2adcc975",
+        "android_client_info": {
+          "package_name": "com.thehyperprogrammer.confessionroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352136366768-6ahmhrjqnoh57ie5vcfu47tecl8qebq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thehyperprogrammer.confessionroom",
+            "certificate_hash": "1df81a0f75d1fa348833f34d7be74a3bd6a8c590"
+          }
+        },
+        {
+          "client_id": "352136366768-fk41jaqa27j3ai59oihtsh0pd2p708t4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thehyperprogrammer.confessionroom",
+            "certificate_hash": "faba194828d5e8b471d137baa38878700a748c4c"
+          }
+        },
+        {
+          "client_id": "352136366768-s3j0viarcsgb2e7jurpd9g3bhacd0rl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNjh5JXOJNxhuiL9vko7p_nOYHsChjkio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352136366768-s3j0viarcsgb2e7jurpd9g3bhacd0rl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
